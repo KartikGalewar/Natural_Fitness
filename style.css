@@ -1,0 +1,577 @@
+
+
+/*
+ nav {
+	margin-top:40px;	
+	padding:20px;
+	background-color:#2a2a2a !important;
+	//font-size:20px;
+}
+*/
+ul{
+	list-style-type:none;
+  
+}
+
+ul li{
+	  display:inline;
+}
+
+.backgroundimg{
+    height:1400px;	
+	background-image:url("images/image1.jpg");
+	background-repeat: no-repeat;
+	 background-size:cover;
+	background-position:center center;
+}
+
+
+/* #section1:before{
+			
+			content:'';
+			display: block;
+			background-color: #000;
+			height:1000px;
+			left: 0;
+			opacity: 0.4;
+		    position: absolute;
+			top: 0;
+			width: 100%;			
+ } */
+
+
+
+.a_link{
+	color:black;
+}
+
+ 
+
+
+/*  MEDIA QUERY FOR SOCIAL LINKS */
+
+@media all and (min-width:320px){
+	.social-icons{
+	    margin-left: 35%;
+  } 
+}
+
+ @media all  and (max-width:411px) and (min-width: 319px){
+    .social-icons{
+	    margin-left: 40%;
+} 
+} 
+
+
+
+@media all and (max-width:767px) and (min-width: 412px){
+    .social-icons{
+	    margin-left: 47%;
+} 
+}
+
+@media all and (max-width:1023px) and (min-width: 768px){
+    .social-icons{
+	    margin-left: 72%;
+} 
+}
+
+
+@media all and (max-width:1902px) and (min-width: 1024px){
+    .social-icons{
+	    margin-left: 77%;
+} 
+}
+
+@media all and (min-width: 1902px){
+    .social-icons{
+	    margin-left: 78%;
+} 
+}
+
+/*---------------------------------------- NAV BAR------------------------------------- */
+
+header {
+  background: #2a2a2a;
+}
+
+
+
+ header::after {
+  content: '';
+  display: table;
+  clear: both;
+  
+}
+ 
+
+.logo{
+	float:left;
+	padding:3px 60px 3px 60px;
+	background-color:#3f3f3f;
+	border-right:10px solid black;
+}
+
+
+
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ nav{
+	margin-left: 25%;
+	
+	} 
+
+nav li {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 36px;
+  //margin-top: 15px;
+ // border-right:2px solid #3f3f3f;
+  border-left:2px solid #3f3f3f;
+  
+  position: relative;
+}
+
+nav a {
+	color:white;
+	font-weight: bold;
+    text-decoration: none;
+  }
+ 
+ nav a:hover {
+  color: #6582A4;
+  text-decoration: none;
+}
+
+/* nav a::after {
+  content: '';
+  display: block;
+  height: 5px;
+  
+  background-color: #444;
+
+  position: relative;
+  top: 38px;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+} */
+
+nav a:hover::after {
+  width: 100%;
+}
+
+nav li:hover{
+
+	border-bottom:4px solid #3f3f3f;
+}
+
+/*----------------------------------- section1-butttonwala ---------------------------------------------------------------------*/
+ 
+ 
+ 
+ .First-button {
+	 padding:150px 0 0 0;
+     width:100%;	 
+   //max-width:200px;
+   
+	margin:0 auto;
+	 
+ }
+ 
+  .First-button .button1{
+	padding:10px ;
+	font-size:24px;
+    width:380px;
+	 background: rgba(63,63,63,0.4);
+   // background-color:black;
+	border: 1px solid white;
+	outline-style: double;
+	outline-color: #7898b5;
+	//opacity:0.5;
+	//background-color : transparent;
+	color:white;
+  }
+  
+  
+  
+  
+  /* -------------------------------------------------section1-Headline----------------------------------------------------------- */
+  
+
+ 
+ .section1-Headline{
+	 text-transform:uppercase;
+	 
+ }
+ .section1-Headline h1{
+      text-align:center;
+	  color:#FFFFFF;
+	  letter-spacing: 4px;
+	  font-size:80px;
+	  font-weight:bolder;
+ }
+ 
+ 
+ 
+ 
+ /*----------------------------------- section1-button2 -------------------------------------------------------------------------------*/
+
+ 
+ 
+ .section1-button2
+  {
+  padding:20px 0 0 0;	 
+ }
+ .Second-button .button2
+  {
+  margin:0 auto;
+  padding:10px 50px 10px 50px; 
+	text-align: center;
+	font-size:22px;
+	color:white;
+	background-color: #808080;
+		border: 1px solid white;
+		outline-style: double;
+	outline-color: #7898b5;
+	border-radius:5px;
+ }
+ 
+ .btn-read {
+	 width: 100%;
+    text-align: center;
+	margin:0;
+ }
+ 
+ 
+ 
+ /*--------------------------------------------------------------------- about section -------------------------------------------------*/
+ 
+ .aboutsection{
+	 background-color:#242424;
+	 color:#FFFFFF;
+	 text-align:center;
+	 padding:5px;
+ }
+ 
+ .aboutsection h1{
+  text-transform:uppercase;
+  padding:5px;
+  font-weight:bold;  
+ }
+ 
+ .aboutsection p{
+	 padding:5px;
+	
+ }
+ 
+ /*--------------------------------------------------------------------- services section -------------------------------------------------*/
+ 
+    /* ------------- rightalign --------------------------- */
+	
+ .servicessection{
+	 background-color:#54595C;
+	 color:#FFFFFF;
+	 padding:25px;
+ }
+ 
+ .rightalign{
+	 text-align:right;
+   }
+
+   .rightalign h4{
+	  font-size: 1.5em;
+	text-transform: uppercase;
+	font-family: montserrat;
+	padding:0;
+	margin:0;	
+   }
+   
+   .rightalign p{
+	   font-size: 1em;
+	font-family: montserrat;
+	padding: 4px 0 0 0;
+	margin: 0;
+   }
+   
+   .rightalign {
+	   text-align: right;
+	word-break: break-all;
+   }
+   
+   .row .row_left_pad{
+	   padding:0 0 3em 0;
+   }
+   
+   
+/* ------------------------------   leftalign --------------------------------*/
+   
+   
+ 
+
+   .leftalign h4{
+	  font-size: 1.5em;
+	text-transform: uppercase;
+	font-family: montserrat;
+	padding:0;
+	margin:0;	
+   }
+   
+   .leftalign p{
+	   font-size: 1em;
+	font-family: montserrat;
+	padding: 4px 0 0 0;
+	margin: 0;
+   }
+   
+   .leftalign {
+	   text-align: left;
+	word-break: break-all;
+   }
+   
+   
+   
+   .row .row_right_pad{
+	   padding:0 0 3em 0;
+   }
+   
+   /*-------------------------------- image carousel ----------------------------------------------*/
+   
+   
+   .col-lg-12 .sl{
+	 margin:0 auto; 
+     width:100%;	 
+	 text-align:center;
+   } 
+
+.inner {
+  
+  
+    background-color: #fff;
+  	    width: 360px;
+  //  height: 500px;
+     margin: 0 auto;
+}   
+   
+   
+   
+/*------------------------------------------- workout --------------------------------------------------*/
+
+.container.container_width{
+	    margin: 0;
+		
+}
+
+
+
+
+
+
+.workout{
+	background-image: url(images/schedul.jpg);
+		 background-position: center center; 
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 729px;
+		max-width: 100%;
+		//margin: 0 auto;
+		//height: auto;
+		padding: 291px 250px;
+}
+   
+.on_workout_image
+{
+	padding:20px;
+	color:white;
+    margin-top:auto;
+	z-index:1000;
+	
+}
+
+.on_workout_image  h1{
+	text-transform:uppercase;
+	 letter-spacing: 6px;
+	 //font-weight:bolder;
+	 font-size:55px;
+	 
+}
+
+ .on_workout_image  h2{
+	text-transform:uppercase;
+	 letter-spacing: 2px;
+} 
+
+.on_workout_image button{
+	padding: 10px 20px;
+	background: rgba(63,63,63,0);
+	border:3px solid white;
+	font-size:18px;
+}
+
+/*---------------------------------------- Exercise_program --------------------------------*/
+
+ .Exercise_program{
+	 background-color:#242424;
+	 color:#FFFFFF;
+	 text-align:center;
+	 padding:5px;
+ }
+ 
+ .Exercise_Program_Text h1{
+  text-transform:uppercase;
+  padding:5px;
+  font-weight:bold;  
+ }
+ 
+ .Exercise_Program_Text p{
+	 padding:5px;
+	
+ }
+ 
+ 
+ 
+ 
+/* .first_row_first_col{
+	 background-color:#808B8D
+	 
+ }
+  */
+ .container.container_width{
+	    margin: 0;
+		padding:0;
+}
+
+.col-lg-3.workout1 {
+	max-width: 350px;
+	min-height: 330px;
+	//width: 100%;
+	background-color: #7f8c8d;
+	margin: 0 20px 20px 0;
+	padding: 0 2.3em 0 2.3em;
+	text-align:left;
+	}
+	
+.col-lg-3.workout2 {
+	max-width: 350px;
+	min-height: 330px;
+	//width: 100%;
+	background-color: #404040;
+	margin: 0 20px 20px 0;
+	padding: 0 2.3em 0 2.3em;
+	text-align:left;
+	}
+	
+.col-lg-3.workout3 {
+	max-width: 350px;
+	min-height: 330px;
+	//width: 100%;
+	background:url(images/ttimage.jpg);
+	background-repeat: no-repeat;
+	 background-size:cover;
+	// background-position:center center;
+	margin: 0 20px 20px 0;
+	padding: 0 2.3em 0 2.3em;
+	text-align:left;
+	}
+
+.row.container_pad{
+	    padding-left: 10%;
+		padding-right:10%;
+}
+
+.col-lg-3.workout1 h2 {
+	margin-top:40px;
+	margin-bottom:0;
+ }
+ 
+ .col-lg-3.workout1 h1 {
+	margin-top:0;
+	font-size:50px;
+	letter-spacing:2px;
+}
+ 
+ .col-lg-3.workout1  button {
+	 	background: rgba(63,63,63,0);
+        border:1px solid white;
+		width:30px;
+		height:40px;
+ }
+
+ .col-lg-3.workout2 h1{
+	 margin-top:0;
+ }
+ 
+  .col-lg-3.workout2 p{
+	 margin-bottom:0;
+	 margin-top:30px;
+ }
+ 
+ 
+ .col-lg-3.workout3 p{
+	  margin-bottom:0;
+	 margin-top:30px;
+ }
+ 
+ .col-lg-3.workout3 h1{
+	 margin-top:0; 
+ }
+ 
+ span{
+	  border-bottom: 3px solid white;
+ }
+ 
+/*------------------------------------ circle ---------------------------------------------------------------*/
+ 
+ .container.width_container{
+	 width: 100%;
+	max-width: 1305px;
+	margin:0 auto;
+	padding:0;
+ }
+ 
+ 
+ 
+ 
+ .Our_circle{
+	 background-color:#5C5C5C;
+    height:330px;
+	 
+ }
+ .circle{
+	 border:5px solid white;
+	 height:180px;
+	 width:180px;
+	 border-radius:50%;
+	 background-color:#FFFFFF;
+	 color:#5C5C5C;
+	 margin: 0 auto;
+    margin-top: 100px;
+	text-align: center;
+  }
+ 
+  .circle h1{
+	//  font-weight:bold;
+	margin-bottom:0px;
+	margin-top:43px;
+	letter-spacing:2px;
+  }
+ 
+ .circle h3{
+	//font-weight:bold;
+	margin-top:0px;
+	letter-spacing:2px;
+  }
+  .line{
+	height:48px;
+	width:1px;
+	background-color:#b4b4b4;
+	margin: 0 auto;
+  }
+ 
+ 
+ 

@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	paddimg:0px;
+	margin:0px ;
+}
+.row{
+width:100%;
+margin:0px !important;
+
+}
+.outer_container{
+	width:100%;
+	height:auto;
+	
+}
+.banner_container{
+	position:relative;
+}
+.navigation{
+	position:absolute;
+	top:40px;
+}
+.logo{
+	
+width:auto;
+height:auto;
+background-color:#666;
+padding-left:1.5em;
+padding-right:1.5em;
+border-right:5px solid #212120;
+border-bottom:5px solid transparent !important;
+
+}
+.navigation{
+	width:100%;
+}
+.navbar-collapse{
+	margin-top:-10px;	
+}
+.navbar-nav{
+	background-color:#373939 !important;
+	padding-left:2% !important;
+	margin-top:5px !important;
+	
+	
+}
+.navbar-nav li a{
+	background-color:#373939 !important;
+	border-bottom:2px solid #373939 !important;
+	color:white !important;
+	border-left:1px solid #999;
+	padding-top:20px !important;
+}
+.navbar-nav li a:hover{
+	
+	color:#7AA1C7 !important;
+	border-bottom:2px solid #999 !important;
+	
+	
+}
+.social-links{
+	position:absolute;
+	top:0px;
+	width:100%;
+	padding-left:80%;
+}
+.social-icons li{
+	display:inline-block;
+	list-style-type:none;
+	
+	
+	width:40px;
+	height:40px;
+	
+	
+}
+.fa-facebook:hover {
+    color:#7AA1C7;
+}
+.fa-twitter:hover {
+    color:#7AA1C7;
+}
+.fa-youtube:hover {
+    color:#7AA1C7;
+}
+.fa-google-plus:hover {
+    color:#7AA1C7;
+}
+.fa-circle{
+	color:#303030;
+}
+
+
+.banner-headings{
+	width:100%;
+	position:absolute;
+	top:20%;
+}
+
+.banner-headings h3{
+	width:30%;
+	background-color:#373939;
+	color:white;
+	margin-left:35%;
+	padding:1%;
+	opacity:0.7;
+	border:3px solid #999;
+	font-size:1.5vw;
+}
+.banner-headings h1
+{
+	font-size:5vw;
+	color:white;
+}
+.banner-headings button
+{
+	width:13%;
+	background-color:#7F8C8D;
+	padding:.5%;
+	color:white;
+	opacity:0.9;
+	margin-left:-20px;
+	font-size:1vw;
+}
+.about{
+	background-color:#000000;
+	color:white;
+	
+	}
+.features{
+	background-color:#535A5B;
+	color:#FFF;
+	padding-left:2vw;
+	padding-right:2vw;
+}
+.features .row{
+	padding-top:28px;
+			
+}
+.features img{
+	margin-top:12px;
+}
+
+.workout-banner{
+	position:relative;
+	width:100%;
+	background-color:#535A5B;
+	color:#FFF;
+	
+}
+.workout-banner img{
+	
+	opacity:0.5;	
+}
+.caption
+{
+	position:absolute;
+	top:35%;
+	padding-left:13vw;
+	width:100%;
+}
+.caption h1{
+font-size:3.47vw;
+}
+.caption h3{
+font-size:1.66vw;
+}
+.caption button{
+	background-color:transparent;
+	padding:.7%;
+	font-size:0.97vw;
+	padding-left:2%;
+	padding-right:2%;
+	border-color:#FFF;
+}
+
+.naturalee-timetable
+{
+	background-color:#242424;
+	color:white;
+	padding-top:3.6vw;
+	
+}
+.naturalee-timetable h1
+{
+	font-size:2.3vw;		
+}
+.naturalee-timetable p
+{
+	font-size:12px;		
+}
+
+.timetable-container{
+	background-color:#404040;
+	width:270px !important;
+	height:250px;
+	margin-left:25px;
+	margin-bottom:35px;
+}
+.timetable-data
+{
+	padding-left:4.6vw;
+	padding-right:4.6vw;
+}
